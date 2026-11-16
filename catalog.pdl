@@ -1,0 +1,6 @@
+# LyfeDesk approved apps: the catalog. One ENTRY per package folder in this repo.
+# ENTRY | id | KIND | phone-app | VERSION | n | SHA256 | tree hash of the package folder
+# Tree hash = sha256 of the lines "<sha256 of file>  <relative path>" in bytewise path order, i.e.
+#   (cd <id> && find . -type f | sed "s#^\./##" | LC_ALL=C sort | xargs sha256sum | sha256sum)
+# Source only: no compiled binaries, no symlinks, no ops/+x folders (the store refuses them). Change a package = new hash here = a new commit to pin.
+ENTRY | stock-x | KIND | phone-app | VERSION | 1 | SHA256 | 15d152e919e6a28e7c6b5ddaa19c78c486915854c2c0a4975bd6966518f4c20c

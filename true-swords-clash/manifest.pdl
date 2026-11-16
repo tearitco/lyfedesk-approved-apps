@@ -1,0 +1,10 @@
+# manifest.pdl - the True Swords Clash app PACKAGE (design: BOOK 16.game/PLUS-PHONE-DESIGN-2026-11-15.md sections 24-27). SCREEN home = the whole game screen, driven by ops/tsc_op.c.
+APP | id | true-swords-clash
+TITLE | True Swords Clash
+ICON | icon
+ORDER | 1
+ORIENT | both
+PLATFORM | 1
+SCREEN | home | screens/match.xhtpm
+SCREEN | home-landscape | screens/match-landscape.xhtpm
+DEP | bible-verses | 1

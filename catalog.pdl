@@ -4,3 +4,5 @@
 #   (cd <id> && find . -type f | sed "s#^\./##" | LC_ALL=C sort | xargs sha256sum | sha256sum)
 # Source only: no compiled binaries, no symlinks, no ops/+x folders (the store refuses them). Change a package = new hash here = a new commit to pin.
 ENTRY | stock-x | KIND | phone-app | VERSION | 1 | SHA256 | 15d152e919e6a28e7c6b5ddaa19c78c486915854c2c0a4975bd6966518f4c20c
+ENTRY | true-swords-clash | KIND | phone-app | VERSION | 1 | SHA256 | 2fb81adc6d253d69832b0f38739f706aed089d8638f23db2896bff18a442027a
+ENTRY | bible-verses | KIND | phone-dep | VERSION | 1 | SHA256 | b04ecfb28b638e27c0775988ad18d8fca186d4e9bbb06b632d22763ef8bc9fe6

@@ -1,0 +1,1 @@
+bible-verses 1: the English Bible text used by True Swords Clash (a Chinese-to-English translation, translated from the Chinese KJV). Data only; installed by the LyfeDesk App Store as a dependency into deps/bible-verses/.

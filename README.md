@@ -12,4 +12,4 @@ Apps that are **not part of the base LyfeDesk install**, approved for the +phone
 Design: `16.game/PLUS-PHONE-APP-STORE-AND-APPROVED-REPO-DESIGN-2026-11-16.md` in the LyfeDesk HQ-IQ-BOOK.
 
 ## Status
-First published set: `stock-x` (no dependencies). `true-swords-clash` joins when the store can install its separate data dependency (its Bible text is not part of the app package).
+Published set: `stock-x`, `true-swords-clash` and its separate data dependency `bible-verses` (the Bible text; installed by the store into `deps/bible-verses/`, never inside the app package).
